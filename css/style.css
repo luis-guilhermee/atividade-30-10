@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15dvh;
+  padding-inline: 120px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo h1 {
+  font-size: 3rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-size: 1.2rem;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 50px;
+}
+.links button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 170px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 85dvh;
+}
+section,
+aside {
+  display: flex;
+  height: 85dvh;
+  width: 50vw;
+}
+aside {
+  align-items: center;
+  justify-content: center;
+}
+section {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-inline: 100px;
+  gap: 30px;
+}
+section h1 {
+  font-size: 4.5rem;
+}
+section p {
+  font-size: 1.6rem;
+}
+section button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  width: 240px;
+  height: 70px;
+  border-radius: 20px;
+}
+.textoDivisao {
+  display: flex;
+  padding-inline: 100px;
+  gap: 50px;
+}
+.textoDivisao span {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+  font-size: 2.5rem;
+  height: 60px;
+  background-color: #b9ff66;
+  border-radius: 10px;
+}
+.textoDivisao p {
+  font-size: 1.4rem;
+}
+.conteudo {
+  display: flex;
+  width: 100vw;
+  padding: 100px;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  width: 40vw;
+  height: 300px;
+  display: flex;
+  border: 1px solid;
+  border-bottom: 4px solid;
+  border-radius: 50px;
+}
+.services {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+.seta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.3rem;
+}
+.seta img {
+  height: 40px;
+  width: auto;
+}
+.img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards span {
+    font-weight: 500;
+}
+.card1 span,
+.card4 span,
+.card6 span {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+  font-size: 2rem;
+  background-color: #b9ff66;
+  border-radius: 10px;
+}
+.card2,
+.card5 {
+  background-color: #b9ff66;
+}
+.card2 span,
+.card3 span,
+.card5 span {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+  font-size: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.card3,
+.card6 {
+  background-color: black;
+}
+.card3 .seta,
+.card6 .seta {
+  color: #fff;
+}
