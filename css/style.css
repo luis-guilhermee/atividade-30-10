@@ -147,7 +147,6 @@ section button {
 .card1 span,
 .card4 span,
 .card6 span {
-  display: flex;
   align-items: center;
   padding-inline: 10px;
   font-size: 2rem;
@@ -161,7 +160,7 @@ section button {
 .card2 span,
 .card3 span,
 .card5 span {
-  display: flex;
+  width: auto;
   align-items: center;
   padding-inline: 10px;
   font-size: 2rem;
