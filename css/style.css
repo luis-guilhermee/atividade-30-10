@@ -152,7 +152,7 @@ section button {
   padding-inline: 10px;
   font-size: 2rem;
   background-color: #b9ff66;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .card2,
 .card5 {
@@ -166,7 +166,7 @@ section button {
   padding-inline: 10px;
   font-size: 2rem;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .card3,
 .card6 {
